@@ -14,11 +14,11 @@ terraform {
 resource "aws_instance" "mumbaiserver" {
   count                  = 3
   ami                    = "ami-0ac7b260cf76d8865"
-  instance_type          = "t3.micro"
+  instance_type          = "t2.micro"
   key_name               = "tharunkpk-mum"
   }
 
   tags = {
-    Name = "Web-server"
+    Name = "Web-server-test"
   }
 }
