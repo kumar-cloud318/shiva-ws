@@ -16,6 +16,6 @@ resource "aws_instance" "mumbaiserver" {
   instance_type = "t3.micro"
   key_name      = "tharunkpk-mum"
   tags = {
-    Name = "Web-server-testing"
+    Name = "Naveen-server-testing"
   }
 }
